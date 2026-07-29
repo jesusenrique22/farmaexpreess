@@ -1,0 +1,6 @@
+email,password,rol,nombre,donde_entrar,notas
+admin@farmaexpress.com,Admin123!,ADMIN,Administrador Farma Express,"Panel Super Admin → /login/staff o /admin","Gestión de productos, banners, médicos, pacientes, sucursales"
+doctor@farmaexpress.com,Doctor123!,DOCTOR,Dr. Juan Pérez,"Medic Express / staff → /login/staff","Cardiología y Medicina General · Dashboard médico"
+doctor2@farmaexpress.com,Doctor123!,DOCTOR,Dra. María González,"Medic Express / staff → /login/staff",Pediatría
+doctor3@farmaexpress.com,Doctor123!,DOCTOR,Dr. Roberto Silva,"Medic Express / staff → /login/staff",Dermatología
+patient@farmaexpress.com,Patient123!,CUSTOMER,Carlos Mendoza (Paciente),"Tienda / Medic Express → /login/store o /login/medic-plus","Compra en Farma Express + citas Medic Express"
