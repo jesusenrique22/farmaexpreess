@@ -55,11 +55,11 @@ Ubicación del archivo: [`backend-nestjs/.env.neon`](file:///Users/smart/Documen
 
 ```env
 # Proyecto Neon DB: smart-medic (Base de Datos: farmaexpress)
-# Pooled (App / Prisma Client):
-DATABASE_URL="postgresql://neondb_owner:npg_6otjSrwAy8hs@ep-small-fire-atder57k-pooler.c-9.us-east-1.aws.neon.tech/farmaexpress?sslmode=require"
+# Pooled (App / Prisma Client - con pooling):
+DATABASE_URL="postgresql://neondb_owner:npg_6otjSrwAy8hs@ep-small-fire-atder57k-pooler.c-9.us-east-1.aws.neon.tech/farmaexpress?sslmode=require&channel_binding=require"
 
-# Direct (Migraciones / Seed sin Connection Pooler):
-DIRECT_URL="postgresql://neondb_owner:npg_6otjSrwAy8hs@ep-small-fire-atder57k.c-9.us-east-1.aws.neon.tech/farmaexpress?sslmode=require"
+# Direct (Migraciones / Seed sin Connection Pooler - sin pooling):
+DIRECT_URL="postgresql://neondb_owner:npg_6otjSrwAy8hs@ep-small-fire-atder57k.c-9.us-east-1.aws.neon.tech/farmaexpress?sslmode=require&channel_binding=require"
 
 ADMIN_EMAIL="admin@farmaexpress.com"
 ADMIN_PASSWORD="Admin123!"
